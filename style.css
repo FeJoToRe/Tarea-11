@@ -1,6 +1,52 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    flex-direction: row;
+    gap: 60px;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
+
+body {
+
+    background-color: rgb(117, 112, 112);
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.tarjeta {
+    background-color: white;
+    width: 340px;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(117, 112, 112);
+    text-align: center;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#garnier{letter-spacing: 5px;}
