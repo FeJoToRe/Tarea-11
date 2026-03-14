@@ -71,31 +71,34 @@ body {
     padding-top: 35px;
     color: rgb(13, 199, 199);
     font-size: 30px;
-}
-
-#precio1:hover {
-    color: rgb(8, 126, 126);
-    opacity: 0.8;
+    transition: color 0.25s ease, opacity 0.25s ease;
 }
 
 #precio2 {
     padding-top: 35px;
     color: rgb(228, 114, 211);
     font-size: 30px;
-}
-
-#precio2:hover {
-    color: rgb(123, 3, 95);
-    opacity: 0.8;
+    transition: color 0.25s ease, opacity 0.25s ease;
 }
 
 #precio3 {
     padding-top: 35px;
     color: rgb(53, 139, 205);
     font-size: 30px;
+    transition: color 0.25s ease, opacity 0.25s ease;
 }
 
-#precio3:hover {
+.tarjeta:hover #precio1 {
+    color: rgb(8, 126, 126);
+    opacity: 0.8;
+}
+
+.tarjeta:hover #precio2 {
+    color: rgb(123, 3, 95);
+    opacity: 0.8;
+}
+
+.tarjeta:hover #precio3 {
     color: rgb(29, 89, 134);
     opacity: 0.8;
 }
@@ -113,9 +116,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.25s ease, opacity 0.25s ease;
 }
 
-.button1:hover {
+.tarjeta:hover .button1 {
     background-color: rgb(8, 126, 126);
     opacity: 0.8;
 }
@@ -133,9 +137,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.25s ease, opacity 0.25s ease;
 }
 
-.button2:hover {
+.tarjeta:hover .button2 {
     background-color: rgb(123, 3, 95);
     opacity: 0.8;
 }
@@ -153,9 +158,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color 0.25s ease, opacity 0.25s ease;
 }
 
-.button3:hover {
+.tarjeta:hover .button3 {
     background-color: rgb(29, 89, 134);
     opacity: 0.8;
 }
