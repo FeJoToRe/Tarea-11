@@ -58,11 +58,89 @@ body {
     gap: 12px;
 }
 
-#garnier{letter-spacing: 2px;}
+#garnier {
+    letter-spacing: 2px;
+}
 
-.checked {color: orange;}
+.checked {
+    color: orange;
+}
 
-button {
+#precio1 {
+
+    padding-top: 35px;
+    color: rgb(13, 199, 199);
+    font-size: 30px;
+}
+
+#precio1:hover {
+    color: rgb(8, 126, 126);
+    opacity: 0.8;
+}
+
+#precio2 {
+    padding-top: 35px;
+    color: rgb(228, 114, 211);
+    font-size: 30px;
+}
+
+#precio2:hover {
+    color: rgb(123, 3, 95);
+    opacity: 0.8;
+}
+
+#precio3 {
+    padding-top: 35px;
+    color: rgb(53, 139, 205);
+    font-size: 30px;
+}
+
+#precio3:hover {
+    color: rgb(29, 89, 134);
+    opacity: 0.8;
+}
+
+.button1 {
+    width: 100%;
+    height: 13%;
+    margin-top: auto;
+    background-color: rgb(13, 199, 199);
+    color: white;
+    border: none;
+    padding: 0px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button1:hover {
+    background-color: rgb(8, 126, 126);
+    opacity: 0.8;
+}
+
+.button2 {
+    width: 100%;
+    height: 13%;
+    margin-top: auto;
+    background-color: rgb(228, 114, 211);
+    color: white;
+    border: none;
+    padding: 0px;
+    font-size: 16px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button2:hover {
+    background-color: rgb(123, 3, 95);
+    opacity: 0.8;
+}
+
+.button3 {
     width: 100%;
     height: 13%;
     margin-top: auto;
@@ -75,4 +153,9 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.button3:hover {
+    background-color: rgb(29, 89, 134);
+    opacity: 0.8;
 }
